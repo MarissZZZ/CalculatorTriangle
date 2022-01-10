@@ -8,17 +8,26 @@
 </head>
 
 <body>
+
+    <h1>
+        Trijstūra kalkulators
+    </h1>
+
     <p>
         Kalkulators paradzēts trijstūra perimetra un laukuma aprēķināšanai
     </p>
 
     <div id="ievade">
 
+        <p>
+            Ievadi trijstūra malu garumus (decimāldaļu ievadei, komata vietā lieto punktu)
+        </p>
+
         <input class="mala" type="text" id="mala1" value="0.00" />
         <input class="mala" type="text" id="mala2" value="0.00" />
         <input class="mala" type="text" id="mala3" value="0.00" />
 
-        <button onclick="izvadaTekstu()">OK</button>
+        <button onclick="nolasa();perimetrs()">OK</button>
 
     </div>
 
