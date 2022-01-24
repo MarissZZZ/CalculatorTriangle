@@ -16,6 +16,7 @@ function nolasa() {
     } else {
         console.log(false);
         return (false);
+        
     }
 }
 // perimetra aprēķināšana
