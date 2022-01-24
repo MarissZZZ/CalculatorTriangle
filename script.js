@@ -16,7 +16,7 @@ function nolasa() {
     } else {
         console.log(false);
         return (false);
-        
+
     }
 }
 // perimetra aprēķināšana
@@ -93,6 +93,10 @@ function rezultats() {
             if (m1==m2 && m2==m3) {
 
                 t +=" Tas ir vienādmalu trijsūris.";
+                
+            }else if (m1==m2 || m1==m3 || m2==m3) {
+
+                t +=" Tas ir vienādsānu trijsūris.";
             }
 
         }
